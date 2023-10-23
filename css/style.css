@@ -1,0 +1,18 @@
+h1 {
+  font-family: Roboto;
+  weight: Bold;
+  size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+
+h2 {
+  font-family: Roboto;
+  weight: Bold;
+  size: 36px;
+  letter-spacing: 2%;
+}
+
+.list {
+  list-style: none;
+}
