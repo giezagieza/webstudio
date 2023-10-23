@@ -7,7 +7,14 @@
   --helper-color-subtletext: #8e8f99;
   --accent-color-sccent: #e7e9fc;
   --bglight-color-light: #f4f4fd;
-  --overlay-color-modal: #2e2f42;
+  --overlay-color-modal: rgba(46, 47, 66, 0.2);
+  --bghero-color-gray: rgba(46, 47, 66, 0.7);
+  --bg-color-white: #ffffff;
+  --bgmodal-color-modal: #fcfcfc;
+}
+
+* {
+  color: var(--body-color-text);
 }
 
 h1 {
