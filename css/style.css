@@ -1,5 +1,13 @@
 :root {
-  --ovarlay-color: #2e2f42;
+  --ovarlay-color-dark: #2e2f42;
+  --cta-color-pressedstate: #404bbf;
+  --links-color-primarybrand: #4d5ae5;
+  --valid-color-success: #31d0aa;
+  --body-color-text: #434455;
+  --helper-color-subtletext: #8e8f99;
+  --accent-color-sccent: #e7e9fc;
+  --bglight-color-light: #f4f4fd;
+  --overlay-color-modal: #2e2f42;
 }
 
 h1 {
