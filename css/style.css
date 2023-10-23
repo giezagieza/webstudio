@@ -1,18 +1,36 @@
+:root {
+  --ovarlay-color: #2e2f42;
+}
+
 h1 {
   font-family: Roboto;
-  weight: Bold;
-  size: 56px;
+  font-weight: Bold;
+  font-size: 56px;
   letter-spacing: 2%;
   line-height: 60px;
 }
 
 h2 {
   font-family: Roboto;
-  weight: Bold;
-  size: 36px;
+  font-weight: Bold;
+  font-size: 36px;
   letter-spacing: 2%;
+}
+
+.doing {
+  display: flex;
+  gap: 24px;
 }
 
 .list {
   list-style: none;
+}
+
+.team {
+  display: flex;
+  gap: 24px;
+}
+
+.values-list {
+  display: flex;
 }
