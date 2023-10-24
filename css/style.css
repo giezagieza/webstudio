@@ -13,12 +13,16 @@
   --bgmodal-color-modal: #fcfcfc;
 }
 
-* {
+body {
+  font-family: Roboto;
   color: var(--body-color-text);
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
-  font-family: Roboto;
   font-weight: Bold;
   font-size: 56px;
   letter-spacing: 2%;
@@ -26,7 +30,6 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto;
   font-weight: Bold;
   font-size: 36px;
   letter-spacing: 2%;
@@ -66,8 +69,34 @@ h2 {
   padding: 24px;
 }
 
+.header-nav-list {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.header-contact-list {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+  align-items: end;
+}
+
 .list {
   list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-pressed-state);
+  margin-right: 76px;
 }
 
 .navigation {
