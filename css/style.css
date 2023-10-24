@@ -32,13 +32,48 @@ h2 {
   letter-spacing: 2%;
 }
 
+.button {
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  height: 56px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: auto;
+  margin-top: 48px;
+  min-width: 169px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
 .doing {
   display: flex;
   gap: 24px;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px;
+}
+
 .list {
   list-style: none;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .team {
@@ -46,6 +81,66 @@ h2 {
   gap: 24px;
 }
 
+.title {
+  box-sizing: border-box;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: var(--color-dark);
+  background-image: linear-gradient(
+      var(--bghero-color-gray),
+      var(--bghero-color-gray)
+    ),
+    url(../images/titlebackgroungoffice.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.title-header {
+  color: var(--bg-color-white, #fff);
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-inside {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+}
+
 .values-list {
+  font-family: Roboto;
   display: flex;
+  gap: 25px;
+}
+
+.values-list-listing {
+  width: calc((100% - 72px) / 4);
+}
+
+.values-header {
+  text-align: center;
+  justify-items: center;
+}
+
+.values-paragraph {
+  text-align: inherit;
+  justify-items: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
